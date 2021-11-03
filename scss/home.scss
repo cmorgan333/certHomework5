@@ -28,6 +28,30 @@ a {
 	font-size: 20px;
 }
 
+.intro-content {
+	max-width: 1400px;
+	margin: 100px auto 50px auto;
+	background-color: teal;
+	// opacity: .5;
+	h1 {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+		color: white;
+		margin-left: 75px;
+		padding-top: 20px;
+	}
+
+	p {
+		width: 425px;
+		letter-spacing: 1.5px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 20px;
+		color: white;
+		margin-left: 75px;
+		padding-bottom: 20px;
+	}
+}
+
 #app {
 	max-width: 1300px;
 	margin: 50px auto;
@@ -62,4 +86,32 @@ h4 {
 .brief-des {
 	margin-bottom: 15px;
 	margin-top: 10px;
+}
+
+// ====FOOTER STYLES//
+footer {
+	height: 150px;
+	background-color: limegreen;
+	display: flex;
+	align-items: center;
+	.footer-container {
+		width: 1600px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 0 auto;
+
+		.footer-name {
+			width: 300px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 40px;
+			color: white;
+		}
+		.contact {
+			width: 300px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+			color: white;
+		}
+	}
 }
