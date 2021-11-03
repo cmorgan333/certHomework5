@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 160px;
+  background-color: limegreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.site-name {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  margin-left: 100px;
+}
+
+.links {
+  width: 1000px;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#app {
+  max-width: 1300px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.game-holder {
+  width: 400px;
+  margin-bottom: 50px;
+  border-bottom: solid 1px #000;
+}
+
+h4 {
+  width: 400px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.brief-rating {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 300px;
+}
+
+.brief-des {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
